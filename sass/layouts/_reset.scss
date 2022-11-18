@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0px;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    @media screen and (max-width:319.98px),(min-width:320px) {
+        max-width: 100%;
+        padding: 25px 32px 24px 16px;
+    }
+}
