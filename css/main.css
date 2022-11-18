@@ -47,7 +47,7 @@ address {
 }
 
 .footer {
-  width: 320px;
+  min-width: 320px;
   background: #001414;
 }
 
@@ -62,6 +62,10 @@ address {
 
 .logo {
   display: flex;
+}
+
+.padding-logo {
+  padding: 25px 0px 0px 16px;
 }
 
 .footer__links {
