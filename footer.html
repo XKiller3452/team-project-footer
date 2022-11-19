@@ -1,38 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <title>Footer</title>
-</head>
-
-<body>
-    <footer class="footer">
+<footer class="footer">
+    <div class="container">
         <div class="padding-logo">
             <section class="logo">
-                <a href="footer.html" class="footer__logo">SHOP FOR GAMERS</a>
+                <a href="index.html" class="footer__logo">SHOP FOR GAMERS</a>
             </section>
         </div>
-        <div class="container container-flex">
-            <div>
-                <section class="footer-list">
-                    <ul class="footer__links">
+        <div class="container-flex">
+            <div class="contant-flex">
+                <div class="footer__links">
+                    <ul>
                         <li class="link-margin"><a href="#" class="link-item">Accessories</a></li>
                         <li class="link-margin"><a href="#" class="link-item">Take order</a></li>
                         <li class="link-margin"><a href="#" class="link-item">Contact</a></li>
                         <li class="link-margin"><a href="#" class="link-item">Blog</a></li>
                     </ul>
-                </section>
-                <section>
+                </div>
+                <div class="vis">
+                    <section class="section-icon">
+                        <svg class="section_svg">
+                            <use href="/src/images/icons.svg#icon-Instagram" width="24" height="24"></use>
+                        </svg>
+                        <svg class="section_svg">
+                            <use href="/src/images/icons.svg#icon-youtube" width="24" height="24"></use>
+                        </svg>
+                        <svg class="section_svg">
+                            <use href="/src/images/icons.svg#icon-facebook" width="24" height="24"></use>
+                        </svg>
+                    </section>
+                </div>
+                <div class="contacts-margin">
                     <ul class="contact-mail">
                         <li class="contact-mail__list">Email</li>
                         <li class="contact-margin"><a href="mailto:sfg.info@gmail.com"
@@ -47,23 +43,21 @@
                                 44
                                 23</a></li>
                     </ul>
-                </section>
+                </div>
             </div>
-            <div>
+            <div class="is-hidden">
                 <section class="section-icon">
                     <svg class="section_svg">
-                        <use href="./symbol-defs.svg#icon-Instagram" width="24" height="24"></use>
+                        <use href="/src/images/icons.svg#icon-Instagram" width="24" height="24"></use>
                     </svg>
                     <svg class="section_svg">
-                        <use href="./symbol-defs.svg#icon-youtube" width="24" height="24"></use>
+                        <use href="/src/images/icons.svg#icon-youtube" width="24" height="24"></use>
                     </svg>
                     <svg class="section_svg">
-                        <use href="./symbol-defs.svg#icon-faceboke" width="24" height="24"></use>
+                        <use href="/src/images/icons.svg#icon-facebook" width="24" height="24"></use>
                     </svg>
                 </section>
             </div>
         </div>
-    </footer>
-</body>
-
-</html>
+    </div>
+</footer>
